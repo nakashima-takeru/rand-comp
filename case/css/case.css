@@ -1,0 +1,343 @@
+/* -----------------------
+case-index
+-----------------------*/
+.second-index.case-index .mainvisual {
+  background-image: url(/salesforce/case/img/index/mainvisual-bg.jpg);
+}
+.second-index.case-index .pages-list-item__desc-ttl .slide-under-line::before {
+  background-color: #000;
+}
+.second-index.case-index .pages-list-item__desc-ttl-link {
+  position: relative;
+  display: inline-block;
+}
+
+/* -----------------------
+case-detail
+-----------------------*/
+/* mainvisual */
+.case-detail .mainvisual {
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: url(/salesforce/case/img/common/mainvisual-bg.jpg);
+}
+.case-detail .mainvisual {
+  padding: 4rem 0;
+  background-position: center;
+  margin-bottom: 7.5rem;
+}
+.case-detail .mainvisual__inner {
+  width: 100rem;
+  max-width: 100rem;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.case-detail .mainvisual__left {
+  padding-top: 2.7rem;
+  width: 46rem;
+  max-width: 46rem;
+}
+.case-detail .mainvisual__ttl {
+  position: relative;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 2.6rem;
+  flex-wrap: nowrap;
+}
+.case-detail .mainvisual__name {
+  white-space: nowrap;
+  width: 73%;
+}
+.case-detail .mainvisual__logo {
+  width: 10rem;
+}
+.case-detail .mainvisual__ttl::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+}
+.case-detail .mainvisual__desc-item + .mainvisual__desc-item {
+  margin-top: 1.3rem;
+}
+.case-detail .mainvisual__desc-item-ttl {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+.case-detail .mainvisual__desc-item-txt {
+  font-size: 1.8rem;
+}
+.case-detail .mainvisual__img {
+  width: 50rem;
+}
+
+/* summary */
+.summary__inner {
+  border: 8px solid #eef1f3;
+  padding: 4rem 5rem 5rem;
+}
+.summary {
+  margin-bottom: 7.5rem;
+}
+.summary__top {
+  justify-content: flex-start;
+  padding-left: 3%;
+  margin-bottom: 4rem;
+}
+.summary__ttl {
+  font-size: 2rem;
+  color: #eb6400;
+  width: 16.7rem;
+  margin-top: 0.5rem;
+}
+.summary__top-txt {
+  font-size: 1.8rem;
+  line-height: 2;
+  flex: 1;
+}
+.summary__bottom-item {
+  background-color: #eef1f3;
+  width: 28.5%;
+  padding: 2.2rem 1.5rem;
+  border-radius: 0.9rem;
+  position: relative;
+}
+.summary__bottom-item + .summary__bottom-item::before {
+  content: "";
+  position: absolute;
+  width: 2.5rem;
+  height: 3.104rem;
+  background-image: url(/salesforce/case/img/common/arrow-down-blue.svg);
+  background-repeat: no-repeat;
+  transform: translateY(-50%) rotate(-90deg);
+  background-size: contain;
+  top: 50%;
+  left: -15%;
+}
+.summary__bottom-item:last-of-type {
+  background-color: #0082c9;
+}
+.summary__bottom-item-ttl {
+  font-size: 1.8rem;
+  background-color: #eb6400;
+  text-align: center;
+  color: #fff;
+  width: 13.5rem;
+  margin: 0 auto 1.7rem;
+  border-radius: 9999px;
+  padding: 0.5rem 0;
+}
+.summary__bottom-item:last-of-type .summary__bottom-item-ttl {
+  background-color: #fff;
+  color: #0082c9;
+}
+.summary__bottom-list-item {
+  line-height: 1.75;
+  font-size: 1.6rem;
+}
+.summary__bottom-list-item .--indent {
+  display: inline-block;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+.summary__bottom-item:last-of-type .summary__bottom-list-item {
+  color: #fff;
+}
+
+/* content */
+.case-detail-content__item + .case-detail-content__item {
+  margin-top: 12rem;
+}
+.case-detail-content__item-ttl {
+  font-size: 2.4rem;
+  color: #0082c9;
+  background-color: #f6f8fa;
+  padding: 1.5rem 0 1.5rem 3.5rem;
+  border-left: 8px solid;
+  margin-bottom: 5rem;
+}
+.case-detail-content__item-block + .case-detail-content__item-block {
+  margin-top: 7.5rem;
+}
+.case-detail-content__item-block-ttl {
+  font-size: 2rem;
+  color: #eb6400;
+  border-bottom: 1px solid #eef1f3;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+.case-detail-content__item-block-part {
+  font-size: 1.8rem;
+  line-height: 1.88888889;
+  margin-bottom: 5rem;
+}
+.case-detail-content__figure {
+  text-align: center;
+}
+.case-detail-content__figure-figcaption {
+  text-align: right;
+  font-size: 1.4rem;
+  margin-top: 0.2em;
+}
+.case-detail-content__item-block-part-ttl {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.case-detail-content__txt .--indent {
+  display: inline-block;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.improvement .case-detail-content__item-block-part {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  /* mainvisual */
+  .case-detail .mainvisual {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  .summary__inner {
+    padding: 4rem 3.44827586% 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* -----------------------
+  case-index
+  -----------------------*/
+  .second-index.case-index .mainvisual {
+    background-image: url(/salesforce/case/img/index/mainvisual-bg-sp.jpg);
+  }
+
+  /* -----------------------
+  case-detail
+  -----------------------*/
+  /* mainvisual */
+  .case-detail .mainvisual {
+    padding: 8vw 0 7vw;
+    background-image: url(/salesforce/case/img/common/mainvisual-bg-sp.jpg);
+    margin-bottom: 16vw;
+  }
+  .case-detail .mainvisual__inner {
+    flex-direction: column-reverse;
+    width: 81%;
+  }
+  .case-detail .mainvisual__left {
+    padding-top: 4vw;
+    width: 100%;
+  }
+  .case-detail .mainvisual__ttl {
+    margin-bottom: 3vw;
+    padding-bottom: 5.5vw;
+  }
+  .case-detail .mainvisual__logo {
+    width: 17.5vw;
+  }
+  .case-detail .mainvisual__desc-item + .mainvisual__desc-item {
+    margin-top: 2.5vw;
+  }
+  .case-detail .mainvisual__desc-item-ttl {
+    font-size: 3.46666667vw;
+    margin-bottom: 0.5vw;
+  }
+  .case-detail .mainvisual__desc-item-txt {
+    font-size: 3.2vw;
+  }
+
+  /* summary */
+  .summary {
+    padding: 0;
+    margin-bottom: 16vw;
+  }
+  .summary__inner {
+    border-width: 1.06666667vw;
+    padding: 8.5vw 2% 9vw;
+  }
+  .summary__top {
+    display: block;
+    margin-bottom: 7vw;
+    padding-right: 3%;
+  }
+  .summary__ttl {
+    width: 100%;
+    text-align: center;
+    font-size: 3.73333333vw;
+    margin: 0 0 3vw;
+  }
+  .summary__top-txt {
+    font-size: 3.46666667vw;
+    line-height: 2.07692308;
+  }
+  .summary__bottom {
+    display: block;
+    padding: 0 3%;
+  }
+  .summary__bottom-item {
+    width: 100%;
+    padding: 4vw 1.5rem;
+  }
+  .summary__bottom-item + .summary__bottom-item {
+    margin-top: 15vw;
+    border-radius: 1.2vw;
+  }
+  .summary__bottom-item + .summary__bottom-item::before {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10vw;
+    width: 6vw;
+    height: 4.639vw;
+  }
+  .summary__bottom-item-ttl {
+    font-size: 3.73333333vw;
+    padding: 1vw 0;
+    width: 28vw;
+    margin-bottom: 2vw;
+  }
+  .summary__bottom-list-item {
+    line-height: 1.92307692;
+    font-size: 3.46666667vw;
+  }
+
+  /* case-detail-content */
+  .case-detail-content__item + .case-detail-content__item {
+    margin-top: 16vw;
+  }
+  .case-detail-content__item-ttl {
+    font-size: 4.53333333vw;
+    padding: 3.5vw 0 2.5vw 4vw;
+    border-left-width: 1.6vw;
+    margin-bottom: 9vw;
+  }
+  .case-detail-content__item-block + .case-detail-content__item-block {
+    margin-top: 8vw;
+  }
+  .case-detail-content__item-block-ttl {
+    font-size: 4vw;
+    padding-bottom: 2.5vw;
+    margin-bottom: 5.5vw;
+  }
+  .case-detail-content__item-block-part {
+    font-size: 3.46666667vw;
+    line-height: 2.07692308;
+    margin-bottom: 7vw;
+  }
+  .case-detail-content__figure-figcaption {
+    font-size: 2.4vw;
+    margin-top: 0.7em;
+  }
+  .case-detail-content__item-block-part-ttl {
+    font-size: 3.46666667vw;
+  }
+
+  .improvement .case-detail-content__item-block-part {
+    margin-bottom: 2vw;
+  }
+}

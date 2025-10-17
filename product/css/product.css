@@ -1,0 +1,530 @@
+/* -----------------------
+product-index
+-----------------------*/
+.second-index.product-index .mainvisual {
+  background-image: url(/salesforce/product/img/index/mainvisual-bg.jpg);
+}
+
+/* -----------------------
+product-detail
+-----------------------*/
+/* mainvisual */
+.product-detail .mainvisual {
+  height: 59.9rem;
+  flex-wrap: nowrap;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.product-detail .mainvisual__inner {
+  justify-content: center;
+}
+.product-detail .mainvisual__ttl {
+  color: #fff;
+  font-size: 4.2rem;
+  line-height: 1.58333333;
+  letter-spacing: 0.05em;
+  padding-left: 0.6em;
+  position: relative;
+}
+.product-detail .mainvisual__ttl::before {
+  content: "";
+  height: 0.87em;
+  width: 0.8rem;
+  background-color: #eb6400;
+  left: 0;
+  position: absolute;
+  top: 0.42em;
+}
+.product-detail.necote .mainvisual {
+  background-image: url(/salesforce/product/img/necote/mainvisual-bg.jpg);
+}
+.product-detail.notice-list .mainvisual {
+  background-image: url(/salesforce/product/img/notice-list/mainvisual-bg.jpg);
+}
+.product-detail.spread-sheet .mainvisual {
+  background-image: url(/salesforce/product/img/spread-sheet/mainvisual-bg.jpg);
+}
+
+/* intro */
+.intro {
+  padding: 5.5rem 0 6rem;
+  background-color: #f6f8fa;
+  line-height: 2;
+  text-align: center;
+}
+.intro__ttl {
+  font-size: 2.8rem;
+  color: #eb6400;
+  line-height: 2.08142857;
+  margin-bottom: 0.5em;
+}
+.intro__img {
+  margin: 1rem 0 3rem;
+  width: 26rem;
+}
+.intro__txt {
+  font-size: 1.8rem;
+  text-align: left;
+}
+.intro__note {
+  font-size: 1.5rem;
+  margin-top: 0.8em;
+}
+
+/* content */
+.product-detail-content {
+  padding: 12rem 0 0;
+}
+.product-detail-content__item + .product-detail-content__item {
+  margin-top: 12rem;
+}
+.product-detail-content__ttl {
+  font-size: 2.4rem;
+  color: #0082c9;
+  background-color: #f6f8fa;
+  padding: 1.5rem 0 1.5rem 3.5rem;
+  border-left: 8px solid;
+  margin-bottom: 5rem;
+}
+.product-detail-content__txt {
+  font-size: 1.8rem;
+  line-height: 2;
+  margin-bottom: 4.5rem;
+}
+.product-detail-content__txt--red {
+  color: #e60012;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* feature-list */
+.feature-list-item {
+  width: 32%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-list-item:nth-of-type(n+4) {
+  margin-top: 4rem;
+}
+.feature-list-item__ttl {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eb6400;
+  padding: 1.7rem 0 1.1rem;
+  border-radius: 1.1rem 1.1rem 0 0;
+  width: 100%;
+}
+.feature-list-item__ttl-num {
+  background-color: #fff;
+  color: #eb6400;
+  border-radius: 9999px;
+  width: 32%;
+  text-align: center;
+  margin-bottom: 0.4em;
+  font-size: 1.8rem;
+}
+.feature-list-item__ttl-txt {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.feature-list-item__content {
+  background-color: #f6f8fa;
+  border-radius: 0 0 1.1rem 1.1rem;
+  padding: 1.4em 9%;
+  flex: 1 0 auto;
+}
+.feature-list-item__txt {
+  font-size: 1.8rem;
+  line-height: 1.88888889;
+}
+
+/* product-detail-content__optimization */
+.product-detail-content__optimization {
+  font-size: 2.8rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #eb6400;
+  background-color: #f6f8fa;
+  margin: 9rem 0;
+  padding: 0.7em 0 1.2em;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+.product-detail-content__optimization::after {
+  content: "";
+  width: 5rem;
+  height: 3.866rem;
+  position: absolute;
+  background-image: url(/salesforce/product/img/common/arrow-down-orange.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.product-detail-content__optimization-txt {
+  position: relative;
+  display: inline-block;
+}
+.product-detail-content__optimization-txt::after {
+  content: "";
+  width: 101%;
+  height: 0.2rem;
+  position: absolute;
+  background-color: #ee9163;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.25em;
+}
+.product-detail-content__img-caption {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.2em;
+  line-height: 2;
+}
+
+/* merit-list-item */
+.merit-list-item {
+  margin-top: 12rem;
+}
+.merit-list-item__ttl {
+  font-size: 2.6rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #eb6400;
+  padding: 0.85em 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  letter-spacing: 0.1em;
+  margin-bottom: 5rem;
+}
+.merit-list-item-step-list-item + .merit-list-item-step-list-item {
+  margin-top: 7.5rem;
+}
+.merit-list-item-step-list-item__ttl {
+  font-size: 1.8rem;
+  line-height: 2;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #eef1f3;
+  padding: 0.2em 1.4em;
+  border-radius: 9999px;
+  margin-bottom: 1.8em;
+}
+
+.product-detail-content__more-btn {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+  background-color: #eb6400;
+  width: 46rem;
+  margin: 9rem auto 6rem;
+  padding: 1em 0;
+  background-repeat: no-repeat;
+  background-position: left 1em top 50%;
+  background-size: 1rem;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.product-detail-content__more-btn::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1.7rem;
+  background-image: url(/salesforce/common/img/arrow-right-white.svg);
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* requirement-list-item */
+.requirement-list-item + .requirement-list-item {
+  margin-top: 2.3rem;
+}
+.requirement-list-item__ttl {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #eb6400;
+  margin-bottom: 0.2em;
+}
+.requirement-list-item__txt {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+.requirement-list-item__list-item {
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+.requirement-list-item__list-item-point {
+  color: #eb6400;
+  margin-right: 0.8em;
+}
+
+
+/* price-example-table */
+.price-example-table {
+  width: 100%;
+  text-align: center;
+}
+.price-example-table__th,
+.price-example-table__td {
+  border: 1px solid #e6e6e6;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+.price-example-table__th {
+  background-color: #f6f8fa;
+  text-align: center;
+  padding: 1.4em 0;
+}
+.price-example-table__th:first-child {
+  width: 40%;
+}
+.price-example-table__note-list {
+  margin-top: 1.7em;
+  line-height: 1.86666667;
+  font-size: 1.5rem;
+}
+
+.about {
+  background-color: #f6f8fa;
+  padding: 5rem 12.5%;
+  text-align: center;
+}
+.about__ttl {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+  letter-spacing: 0.1em;
+  color: #0082c9;
+  margin-bottom: 0.6em;
+}
+.about__txt {
+  line-height: 2;
+  font-size: 1.8rem;
+  text-align: left;
+}
+.about__link {
+  color: #2d96d0;
+  margin-top: 2.5rem;
+  display: inline-block;
+  text-decoration: underline;
+  transition-duration: .3s;
+}
+.about__link:hover {
+  opacity: .7;
+}
+
+@media screen and (min-width:768px) and (max-width:1000px) {
+  .feature-list-item__ttl-num {
+    font-size: 1.8vw;
+  }
+  .feature-list-item__ttl-txt {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* mainvisual */
+  .product-detail .mainvisual {
+    height: 121.33333333vw;
+  }
+  .product-detail .mainvisual__inner {
+    justify-content: flex-start;
+  }
+  .product-detail .mainvisual__ttl {
+    font-size: 7.2vw;
+  }
+  .product-detail .mainvisual__ttl.--small {
+    font-size: 6.4vw;
+  }
+  .product-detail .mainvisual__ttl::before {
+    width: 1.06666667vw;
+  }
+  .product-detail.necote .mainvisual {
+    background-image: url(/salesforce/product/img/necote/mainvisual-bg-sp.jpg);
+  }
+  .product-detail.spread-sheet .mainvisual {
+    background-image: url(/salesforce/product/img/spread-sheet/mainvisual-bg-sp.jpg);
+  }
+
+  /* content */
+  .product-detail-content {
+    padding: 16.5vw 0 0;
+  }
+  .product-detail-content__item + .product-detail-content__item {
+    margin-top: 16vw;
+  }
+  .product-detail-content__ttl {
+    font-size: 4.53333333vw;
+    padding: 3.5vw 0 2.5vw 4vw;
+    border-left-width: 1.6vw;
+    margin-bottom: 9vw;
+  }
+  .product-detail-content__txt {
+    font-size: 3.46666667vw;
+    line-height: 2.07692308;
+    margin-bottom: 10vw;
+  }
+  .product-detail-content__optimization {
+    font-size: 4.26666667vw;
+    margin: 15vw 0;
+    padding: 1em 0 1.7em;
+  }
+  .product-detail-content__optimization::after {
+    width: 6.9vw;
+    height: 5.335vw;
+    top: -4.5vw;
+  }
+  .product-detail-content__optimization-txt::after {
+    height: 1px;
+  }
+  .product-detail-content__more-btn {
+    font-size: 4.8vw;
+    margin: 16vw auto 6vw;
+    width: 88%;
+  }
+  .product-detail-content__img-caption {
+    font-size: 3.46666667vw;
+  }
+
+  /* intro */
+  .intro {
+    padding: 9.5vw 6vw;
+    line-height: 2.07692308;
+  }
+  .intro__ttl {
+    font-size: 4.26666667vw;
+    line-height: 1.9;
+    margin-bottom: 0.5em;
+  }
+  .intro__txt {
+    font-size: 3.46666667vw;
+  }
+  .intro__note {
+    font-size: 3.46666667vw;
+  }
+  .intro__img {
+    width: 76%;
+    margin: 3vw 0 5vw;
+  }
+
+  /* feature-list */
+  .feature-list-item {
+    width: 100%;
+  }
+  .feature-list-item + .feature-list-item {
+    margin-top: 6vw;
+  }
+  .feature-list-item__ttl {
+    padding: 5vw 0 4.2vw;
+  }
+  .feature-list-item__content {
+    padding: 5vw;
+  }
+  .feature-list-item__ttl-num {
+    font-size: 3.73333333vw;
+    padding: 0.4em 0;
+    margin-bottom: 3vw;
+  }
+  .feature-list-item__ttl-txt {
+    font-size: 4.26666667vw;
+  }
+  .feature-list-item__txt {
+    font-size: 3.73333333vw;
+    line-height: 1.92857143;
+  }
+
+  /* merit-list */
+  .merit-list-item {
+    margin-top: 16vw;
+  }
+  .merit-list-item__ttl {
+    font-size: 4.26666667vw;
+    margin-bottom: 7vw;
+    line-height: 1.375;
+    padding: 1em 0;
+  }
+  .merit-list-item__ttl.--two-lines {
+    padding: 0.5em 0;
+  }
+  .merit-list-item__txt {
+    margin-bottom: 7vw;
+  }
+  .merit-list-item-step-list-item__ttl {
+    font-size: 3.46666667vw;
+    padding: 0.1em 1.4em;
+  }
+  .merit-list-item-step-list-item:first-of-type .merit-list-item-step-list-item__ttl {
+    margin-top: 2.5vw;
+  }
+
+  /* .requirement-list */
+  .requirement-list-item + .requirement-list-item {
+    margin-top: 5vw;
+  }
+  .requirement-list-item__ttl {
+    font-size: 4.26666667vw;
+    margin-bottom: 0;
+  }
+  .requirement-list-item__txt {
+    font-size: 3.46666667vw;
+    line-height: 1.61538462;
+  }
+
+  /* .price-example-table */
+  .price-example-table {
+    margin-top: -3vw;
+  }
+  .price-example-table__th:first-child {
+    width: 28%;
+  }
+  .price-example-table__th,
+  .price-example-table__td {
+    font-size: 3.46666667vw;
+    padding: 0.7em;
+  }
+  .price-example-table__note-list-item {
+    font-size: 1.6vw;
+  }
+
+  /* links-list */
+  .links-list {
+    padding: 0 5.5vw;
+  }
+
+  /* about */
+  .about {
+    margin-top: 16vw;
+    padding: 7vw 4vw;
+  }
+  .about__inner {
+    width: 100%;
+  }
+  .about__ttl {
+    font-size: 4.26666667vw;
+  }
+  .about__txt {
+    font-size: 3.46666667vw;
+    text-align: left;
+  }
+  .about__link {
+    font-size: 3.46666667vw;
+  }
+
+  /* back-to-top-btn */
+  .back-to-top-btn {
+    margin-top: 19vw;
+  }
+  
+}
