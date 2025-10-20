@@ -1,0 +1,12 @@
+.second-index.news-index .mainvisual {
+  background-image: url(/salesforce/news/img/index/mainvisual-bg.jpg);
+}
+.second-index .pages__ttl {
+  margin-bottom: 8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .second-index .pages__ttl {
+    margin-bottom: 10vw;
+  }
+}
