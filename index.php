@@ -18,423 +18,392 @@ require($_SERVER["DOCUMENT_ROOT"] . '/wp/wp-load.php');
   <meta property="og:url" content="https://www.rand.co.jp/salesforce/">
   <meta property="og:image" content="https://www.rand.co.jp/common/img/ogp.png">
   <link rel="stylesheet" href="/salesforce/common/css/reset.css">
-  <link rel="stylesheet" href="/salesforce/common/css/layout.css">
+  <link rel="stylesheet" href="/salesforce/common/css/variable.css">
+  <link rel="stylesheet" href="/salesforce/common/css/common.css">
   <link rel="stylesheet" href="/salesforce/top/css/top.css">
-  <script src="/salesforce/common/js/jquery-3.6.0.min.js"></script>
-  <script src="/salesforce/common/js/common.js"></script>
-  <script src="/salesforce/common/js/jquery.matchHeight-min.js"></script>
-  <script src="/salesforce/top/js/top.js"></script>
 </head>
 
-<body class="top index">
-  <?php include($_SERVER["DOCUMENT_ROOT"] . "/salesforce/common/inc/header.php"); ?>
+<body>
   <main>
-    <section class="mainvisual">
-      <p class="mainvisual__txt">お客様のDXを加速させる<br>Salesforce<sup>®</sup>ソリューション</p>
+    <section id="mainvisual">
+      <h1 class="mainvisual__title">お客様のDXを加速させる<br>Salesforceソリューション
+      </h1>
+      <div class="mainvisual__img">
+        <img src="/salesforce/top/img/img-mainvisual-top.png" alt="">
+      </div>
     </section>
-    <section class="about">
+    <section id="attempt">
       <div class="inner">
-        <h2 class="about__ttl">Salesforce<sup>®</sup>への<span class="about__ttl-em">取り組み</span></h2>
-        <ul class="about-list">
-          <li class="about-list-item">
-            <h3 class="about-list-item__ttl">Salesforce<sup>®</sup>とは</h3>
-            <p class="about-list-item__desc">Salesforce<sup>®</sup>はリアルタイムに顧客情報を管理・分析し営業活動及びカスタマーサービス、マーケティング活動を効率化するクラウド型のツールです。<br>AppExchangeという、ビジネスアプリのマーケットプレイスで、Salesforce<sup>®</sup>用のアプリケーションを入手しSalesforce<sup>®</sup>の拡張が可能です。<br>加えてSalesforce<sup>®</sup>連携ソリューションによって外部システムとの連携を実現し、広範囲のビジネスエリアをサポート可能です。</p>
-            <img src="/salesforce/top/img/about_desc-img01.png" alt="" class="about-list-item__img">
-            <p class="about-list-item__note">※1:necote<br>necoteはランドコンピュータが開発したSalesforce<sup>®</sup>上で稼働するアプリケーションです。<br>（Salesforce社が提供するアプリケーションマーケットプレイス「App Exchange」に登録された商品です。<br><br>※2:Salesforce<sup>®</sup>連携ソリューション<br>Salesforce社が提供するコンテナベースのクラウド型 PaaS（サービスとしてのプラットフォーム）「Heroku」を活用することにより、Salesforce<sup>®</sup>上のデータを安全に外部システムと連携させることができ、システムを柔軟に拡張することができます。</p>
+        <h2 class="section__title">Salesforceへの取り組み</h2>
+        <div class="attempt__container">
+          <div class="attempt__content">
+            <h3 class="attempt__title">Salesforceとは</h3>
+            <div class="attempt__textarea">
+              <p class="attempt__text">Salesforceはリアルタイムに顧客情報を管理・分析し営業活動及びカスタマーサービス、マーケティング活動を効率化するクラウド型のツールです。AppExchangeという、ビジネスアプリのマーケットプレイスで、Salesforce用のアプリケーションを入手しSalesforceの拡張が可能です。<br>
+                加えてSalesforce連携ソリューションによって外部システムとの連携を実現し、広範囲のビジネスエリアをサポート可能です。</p>
+              <div class="attempt__img">
+                <img src="/salesforce/common/img/top/img-attempt_1.jpg" alt="">
+              </div>
+              <p class="attemptNotes">※1:necote<br>
+                necoteはランドコンピュータが開発したSalesforce上で稼働するアプリケーションです。<br>
+                （Salesforce社が提供するアプリケーションマーケットプレイス「App Exchange」に登録された商品です。）<br>
+                <br>
+                ※2:Salesforce連携ソリューション<br>
+                Salesforce社が提供するコンテナベースのクラウド型 PaaS（サービスとしてのプラットフォーム）「Heroku」を活用することにより、
+              </p>
+            </div>
+          </div>
+          <div class="attempt__content">
+            <h3 class="attempt__title">導入の進め方</h3>
+            <div class="attempt__textarea">
+              <p class="attempt__text">ランドコンピュータでは、長年の実績をとおして培ってきた確かな技術力とノウハウを持つ専門集団が、お客様のニーズに合わせたご提案から開発、運用サポートまで支援いたします。</p>
+              <div class="attempt__img">
+                <img src="/salesforce/common/img/top/img-attempt_2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="strong">
+      <div class="inner">
+        <h2 class="section__title">ランドコンピュータの強み</h2>
+        <p class="section__headText">Salesforceは顧客情報など様々な情報を有効活用しビジネスを加速させます。ランドコンピュータでは確かな実績を基に、お客様それぞれのニーズに合わせて、専門のエンジニアであるSalesforce認定コンサルタントによる導入支援を実施しています。</p>
+        <div class="strong__column">
+          <div class="strongItem">
+            <p class="strongItem__point">POINT<br><span class="num">01</span></p>
+            <h3 class="strongItem__title">お客様それぞれの課題に<br>
+              寄り添った導入支援！</h3>
+            <div class="strongItem__img">
+              <img src="/salesforce/top/img/img-strong_01.png" alt="">
+            </div>
+            <p class="strongItem__text">各業界特有の業務や課題に向き合い、お客様のご要望に沿った、最適なシステムの構築をご提案します。</p>
+          </div>
+          <div class="strongItem">
+            <p class="strongItem__point">POINT<br><span class="num">01</span></p>
+            <h3 class="strongItem__title">お客様それぞれの課題に<br>
+              寄り添った導入支援！</h3>
+            <div class="strongItem__img">
+              <img src="/salesforce/top/img/img-strong_02.png" alt="">
+            </div>
+            <p class="strongItem__text">各業界特有の業務や課題に向き合い、お客様のご要望に沿った、最適なシステムの構築をご提案します。</p>
+          </div>
+          <div class="strongItem">
+            <p class="strongItem__point">POINT<br><span class="num">01</span></p>
+            <h3 class="strongItem__title">お客様それぞれの課題に<br>
+              寄り添った導入支援！</h3>
+            <div class="strongItem__img">
+              <img src="/salesforce/top/img/img-strong_03.png" alt="">
+            </div>
+            <p class="strongItem__text">各業界特有の業務や課題に向き合い、お客様のご要望に沿った、最適なシステムの構築をご提案します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="original">
+      <div class="inner">
+        <div class="card">
+          <hgroup class="card__hgroup">
+            <p>株式会社ランドコンピュータの確かな実績を活かして生まれた</p>
+            <h2>オリジナル商品シリーズ</h2>
+          </hgroup>
+          <p class="card__text">
+            ランドコンピュータには、パッケージ・サービスに関する自社のオリジナル商品のシリーズブランドとして、「R&Driver」（ランドライバー）があります。<br>
+            その名称には、ランドコンピュータがお客様のビジネスを導く（＝Driveする）という意味が込められており、今後も積極的に自社パッケージ・サー
+          </p>
+          <div class="cardColumn">
+            <div class="cardColumn__img">
+              <img src="/salesforce/top/img/img-original-logo.png" alt="">
+            </div>
+            <div class="cardColumn__textarea">
+              <div class="cardColumn__header">
+                <p>necote for Salesforce</p>
+                <h3>販売管理業務の課題を解決！</h3>
+              </div>
+              <p class="cardColumn__text">Sales Cloudとnecoteを導入し、顧客管理～商談管理～請求・入金・売掛管理を一括サポート。請求・入金業務の効率向上が可能になります。</p>
+              <a class="common__moreLink" href="">もっと詳しく</a>
+            </div>
+          </div>
+          <a class="common__BlueLink" href="">プロダクト一覧を見る</a>
+        </div>
+      </div>
+    </section>
+    <section id="solution">
+      <div class="inner">
+        <div class="card">
+          <hgroup class="card__hgroup">
+            <p>株式会社ランドコンピュータではほかにも</p>
+            <h2>様々なソリューションをご提供</h2>
+          </hgroup>
+          <p class="card__text">
+            ランドコンピュータではさまざまな業界での豊富な導入実績をもとに、お客様それぞれの業務や目的、業界に沿った課題解決をご提供しています。
+          </p>
+          <div class="cardColumn__inner">
+            <div class="cardColumn">
+              <div class="cardColumn__img">
+                <img src="/salesforce/top/img/img-solution_01.png" alt="">
+              </div>
+              <div class="cardColumn__textarea">
+                <div class="cardColumn__header">
+                  <p>技術サポート分野へのAI適用をご支援</p>
+                  <h3>Agentforce導入サービス</h3>
+                </div>
+                <p class="cardColumn__text">企業の独自のナレッジを蓄積し、活用を推進する。という業務テーマにたいして、AgentforceのPOCから本格立ち上げまで伴走致します。
+                </p>
+                <a class="common__moreLink" href="">もっと詳しく</a>
+              </div>
+            </div>
+            <div class="cardColumn">
+              <div class="cardColumn__img">
+                <img src="/salesforce/top/img/img-solution_02.png" alt="">
+              </div>
+              <div class="cardColumn__textarea">
+                <div class="cardColumn__header">
+                  <p>複雑な申請承認ルールをサポートするMAJOR FLOWとの連携をご支援</p>
+                  <h3>Salesforce/MAJOR FLOW連携アダプタ
+                  </h3>
+                </div>
+                <p class="cardColumn__text"> SalesforceのCRM機能とMAJOR FLOWのワークフロー管理機能を組み合わせることで、ユーザーは日本特有の複雑な業務プロセスの管理が可能となります。
+                </p>
+                <a class="common__moreLink" href="">もっと詳しく</a>
+              </div>
+            </div>
+            <div class="cardColumn">
+              <div class="cardColumn__img">
+                <img src="/salesforce/top/img/img-solution_03.png" alt="">
+              </div>
+              <div class="cardColumn__textarea">
+                <div class="cardColumn__header">
+                  <p>小規模カスタマーセンターの短期立ち上げに最適</p>
+                  <h3>Service Cloudスターターパック
+                  </h3>
+                </div>
+                <p class="cardColumn__text">カスタマーセンターを小規模かつ短期間で立ち上げたいというニーズにお応えするためのService Cloudの設定パックです。
+                </p>
+                <a class="common__moreLink" href="">もっと詳しく</a>
+              </div>
+            </div>
+          </div>
+          <a class="common__BlueLink" href="">ソリューション一覧を見る</a>
+        </div>
+      </div>
+    </section>
+    <section id="case">
+      <div class="inner">
+        <div class="case__column">
+          <div class="caseItem">
+            <div class="caseItem__img">
+              <img src="/salesforce/top/img/img-case_01.png" alt="">
+            </div>
+            <div class="caseItem__textarea">
+              <div class="caseItem__header">
+                <p>卸売及び小売</p>
+                <h3>株式会社イエローハット　様</h3>
+              </div>
+              <p class="caseItem__text">会員MYページ、店舗情報、サービス予約、会員向けメール配信をひとつのシステムで実現Herokuによる大規模会員サービス事例。</p>
+            </div>
+          </div>
+          <div class="caseItem">
+            <div class="caseItem__img">
+              <img src="/salesforce/top/img/img-case_02.png" alt="">
+            </div>
+            <div class="caseItem__textarea">
+              <div class="caseItem__header">
+                <p>サービス業</p>
+                <h3>株式会社エレックス極東　様</h3>
+              </div>
+              <p class="caseItem__text">電気保安管理業務をSalesforce×Heroku×iPadで実現。Herokuによる電気保安管理業務ポータル事例。</p>
+            </div>
+          </div>
+          <div class="caseItem">
+            <div class="caseItem__img">
+              <img src="/salesforce/top/img/img-case_03.png" alt="">
+            </div>
+            <div class="caseItem__textarea">
+              <div class="caseItem__header">
+                <p>教育サービス業</p>
+                <h3>株式会社ライフマップ　様</h3>
+              </div>
+              <p class="caseItem__text">見積･請求･売上･入金管理効率化（販売管理）アプリnecote適用事例。案件管理から入金確認までSalesforceで管理することで営業活動を強化。</p>
+            </div>
+          </div>
+        </div>
+        <a class="common__BlueLink" href="">導入事例一覧を見る</a>
+      </div>
+    </section>
+    <section id="distribution">
+      <div class="inner">
+        <div class="distHead">
+          <h3 class="distHead__title">Salesforce Navigatorプログラムにおいて
+            Experience Cloud分野でExpert認定を獲得しました。（2023年2月取得）</h3>
+          <div class="distHead__column">
+            <div class="distHead__img">
+              <img src="/salesforce/top/img/img-distribution-logo_01.png" alt="">
+            </div>
+            <p class="distHead__text">Salesforce NavigatorプログラムとはSalesforceによりSalesforceパートナーの製品・業界・サービスにおける専門能力を知識・経験・品質の3つの側面から評価し、3つの段階的なレベルで認定するものです。Expertは指定分野において最も経験豊かかつ高い技術を保有するパートナーであることを示しています。</p>
+          </div>
+        </div>
+        <div class="distBody">
+          <div class="distBodyColumn">
+            <div class="distBodyColumn__img">
+              <img src="/salesforce/top/img/img-distribution-logo_02.png" alt="">
+            </div>
+            <div class="distBodyColumn__textarea">
+              <h3 class="distBodyColumn__title">Salesforce認定コンサルタントが多数在籍</h3>
+              <p class="distBodyColumn__text">資格保有者数<span>355</span>名のべ人数</p>
+            </div>
+          </div>
+          <div class="distBottomColumn">
+            <div class="distBottomItem">
+              <figure class="distBottomItem__figure">
+                <img src="" alt="">
+                <figcaption>管理者／CRMコンサルタント</figcaption>
+              </figure>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Service Cloud<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>22</span>名</p>
+              </div>
+            </div>
+            <div class="distBottomItem">
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定<br>
+                  アドミニストレーター</p>
+                <p class="distBottomItem__positionNum"><span>88</span>名</p>
+              </div>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Experience Cloud<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>18</span>名</p>
+              </div>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Field Service<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>5</span>名</p>
+              </div>
+            </div>
+            <div class="distBottomItem">
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">Data Cloud<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>24</span>名</p>
+              </div>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Sales Cloud<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>22</span>名</p>
+              </div>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Tableau CRM and<br>
+                  Einstein Discovery<br>
+                  コンサルタント</p>
+                <p class="distBottomItem__positionNum"><span>4</span>名</p>
+              </div>
+            </div>
+            <div class="distBottomColumn">
+              <div class="distBottomItem">
+                <figure class="distBottomItem__figure">
+                  <img src="" alt="">
+                  <figcaption>開発者</figcaption>
+                </figure>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">Agentforce<br>
+                    スペシャリスト</p>
+                  <p class="distBottomItem__positionNum"><span>12</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定 Platform<br>
+                    デベロッパー</p>
+                  <p class="distBottomItem__positionNum"><span>33</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定 上級 Platform<br>
+                    デベロッパー</p>
+                  <p class="distBottomItem__positionNum"><span>3</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">JavaScript<br>
+                    Developer I</p>
+                  <p class="distBottomItem__positionNum"><span>5</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定 Platform<br>
+                    アプリケーション ビルダー</p>
+                  <p class="distBottomItem__positionNum"><span>50</span>名</p>
+                </div>
+              </div>
+              <div class="distBottomItem">
+                <figure class="distBottomItem__figure">
+                  <img src="" alt="">
+                  <figcaption>アーキテクト</figcaption>
+                </figure>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定 アプリケーション<br>
+                    アーキテクト</p>
+                  <p class="distBottomItem__positionNum"><span>3</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定<br>
+                    システムアーキテクト</p>
+                  <p class="distBottomItem__positionNum"><span>1</span>名</p>
+                </div>
+                <div class="distBottomItem__position">
+                  <p class="distBottomItem__positionName">認定 Heroku Architecture<br>
+                    デザイナー</p>
+                  <p class="distBottomItem__positionNum"><span>3</span>名</p>
+                </div>
+              </div>
+            </div>
+            <div class="distBottomItem">
+              <figure class="distBottomItem__figure">
+                <img src="" alt="">
+                <figcaption>Marketing関連</figcaption>
+              </figure>
+              <div class="distBottomItem__position">
+                <p class="distBottomItem__positionName">認定 Pardot<br>
+                  スペシャリスト</p>
+                <p class="distBottomItem__positionNum"><span>3</span>名</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="inner">
+        <hgroup class="news__hgroup">
+          <h2>ニュース</h2>
+          <p>NEWS</p>
+        </hgroup>
+        <ul class="newsList">
+          <a href="">
+            <li class="newsList__item">
+              <p class="newsList__date">2024年11月05日</p>
+              <p class="newsList__text">株式会社ランドコンピュータは株式会社セールスフォース・ジャパン共催にて 「成功事例から学ぶ Salesforce 活用による生産性向上セミナー」を開催いたしました。 多数のご参加、ありがとうございました。</p>
+          </a>
           </li>
-          <li class="about-list-item">
-            <h3 class="about-list-item__ttl">導入の進め方</h3>
-            <p class="about-list-item__desc">ランドコンピュータでは、長年の実績をとおして培ってきた確かな技術力とノウハウを持つ専門集団が、お客様のニーズに合わせたご提案から開発、運用サポートまで支援いたします。</p>
-            <img src="/salesforce/top/img/about_desc-img02.png" alt="" class="about-list-item__img">
+          <li class="newsList__item">
+            <a href="">
+              <p class="newsList__date">2023年06月30日</p>
+              <p class="newsList__text">株式会社ランドコンピュータはSalesforce NavigatorプログラムのExperience Cloud領域において、最高位であるExpertを取得致しました。Salesforce NavigatorプログラムとはSalesforceによりSalesforceパートナーの製品・業界・サービスにおける専門能力を知識・経験・品質の3つの側面から評価し、3つの段階的なレベルで認定するものです。Expertは指定分野において最も経験豊かかつ高い技術を保有するパートナーであることを示しています。</p>
+            </a>
           </li>
         </ul>
+        <a href="news__link">一覧を見る</a>
       </div>
     </section>
-    <section class="strength">
+    <section id="contact">
       <div class="inner">
-        <h2 class="strength__ttl">ランドコンピュータの<span class="strength__ttl-em">強み</span></h2>
-        <p class="strength__intro">Salesforce<sup>®</sup>は顧客情報など様々な情報を有効活用しビジネスを加速させます。<br>ランドコンピュータでは確かな実績を基に、お客様それぞれのニーズに合わせて、<br>専門のエンジニアであるSalesforce<sup>®</sup>認定コンサルタントによる導入支援を実施しています。</p>
-        <ul class="flex strength-list">
-          <li class="flex strength-list-item">
-            <h3 class="flex strength-list-item__ttl"><span class="strength-list-item__ttl-point">POINT</span><span class="strength-list-item__ttl-num flex">01</span></h3>
-            <p class="strength-list-item__catch">お客様それぞれの課題に<br>寄り添った導入支援！</p>
-            <div class="strength-list-item__img-wrap">
-              <img src="/salesforce/top/img/strength-img01.png" alt="" class="strength-list-item__img">
-            </div>
-            <p class="strength-list-item__desc">各業界特有の業務や課題に向き合い、お客様のご要望に沿った、最適なシステムの構築をご提案します。</p>
-          </li>
-          <li class="flex strength-list-item">
-            <h3 class="flex strength-list-item__ttl"><span class="strength-list-item__ttl-point">POINT</span><span class="strength-list-item__ttl-num flex">02</span></h3>
-            <p class="strength-list-item__catch">2,200件を超える<br>確かな実績！</p>
-            <div class="strength-list-item__img-wrap">
-              <img src="/salesforce/top/img/strength-img02.png" alt="" class="strength-list-item__img">
-            </div>
-            <p class="strength-list-item__desc">2010年よりSalesforce<sup>®</sup>事業を開始し、すでに2,200件を超えるプロジェクト実績を誇ります。</p>
-          </li>
-          <li class="flex strength-list-item">
-            <h3 class="flex strength-list-item__ttl"><span class="strength-list-item__ttl-point">POINT</span><span class="strength-list-item__ttl-num flex">03</span></h3>
-            <p class="strength-list-item__catch">Salesforce<sup>®</sup><br class="pc_display">認定コンサルタントが<br>多数在籍！</p>
-            <div class="strength-list-item__img-wrap">
-              <img src="/salesforce/top/img/strength-img03.png" alt="" class="strength-list-item__img">
-            </div>
-            <p class="strength-list-item__desc">メンバー全員がSalesforce<sup>®</sup>の認定資格を保持しています。各製品に精通したエンジニア、コンサルタントが導入支援します。</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="product point">
-      <div class="inner">
-        <h2 class="point__ttl"><span class="point__ttl-before">株式会社ランドコンピュータの確かな実績を活かして生まれた</span><br>オリジナル商品シリーズ</h2>
-        <div class="point-content">
-          <h3 class="flex point-content__ttl ttl-column"><span class="point-content__ttl-pickup ttl-column__pickup">PICK UP</span><span class="point-content__ttl-en ttl-column__en">PRODUCT</span><span class="point-content__ttl-jp ttl-column__jp">プロダクト</span></h3>
-          <p class="point-content__intro">ランドコンピュータには、パッケージ・サービスに関する自社のオリジナル商品のシリーズブランドとして、「R&Driver」（ランドライバー）があります。<br>その名称には、ランドコンピュータがお客様のビジネスを導く（＝Driveする）という意味が込められており、今後も積極的に自社パッケージ・サービスを展開します。</p>
-          <ul class="point-list">
-            <li class="flex point-list-item">
-              <a href="/salesforce/product/necote.php" class="point-list-item__link"><img src="/salesforce/top/img/product-img01.png" alt="necote for Salesforce®" class="point-list-item__img product-list-item__img"></a>
-              <div class="point-list-item__desc">
-                <h4 class="point-list-item__desc-ttl"><span class="point-list-item__desc-ttl-sub-ttl">necote for Salesforce<sup>®</sup></span><br>販売管理業務の課題を解決！</h4>
-                <p class="point-list-item__desc-txt">Sales Cloudとnecoteを導入し、顧客管理～商談管理～請求・入金・売掛管理を一括サポート。<br>請求・入金業務の効率向上が可能になります。</p>
-                <a href="/salesforce/product/necote.php" class="slide-under-line-2 point__more-btn">もっと詳しく</a>
-              </div>
-            </li>
-          </ul>
-          <a href="/salesforce/product/" class="index-btn slide-btn"><span>プロダクト一覧を見る</span></a>
-        </div>
-      </div>
-    </section>
-    <section class="solution point">
-      <div class="inner">
-        <h2 class="point__ttl"><span class="point__ttl-before">株式会社ランドコンピュータではほかにも</span><br>様々なソリューションをご提供</h2>
-        <div class="point-content">
-          <h3 class="flex point-content__ttl ttl-column"><span class="point-content__ttl-pickup ttl-column__pickup">PICK UP</span><span class="point-content__ttl-en ttl-column__en">SOLUTION</span><span class="point-content__ttl-jp ttl-column__jp">ソリューション</span></h3>
-          <p class="point-content__intro solution-content__intro">ランドコンピュータではさまざまな業界での豊富な導入実績をもとに、お客様それぞれの業務や目的、業界に沿った課題解決をご提供しています。</p>
-          <ul class="point-list">
-            <li class="flex point-list-item">
-              <a href="/salesforce/solution/service-cloud.php" class="point-list-item__link"><img src="/salesforce/top/img/solution-img01.jpg" alt="" class="point-list-item__img"></a>
-              <div class="point-list-item__desc">
-                <h4 class="point-list-item__desc-ttl solution-list-item__desc-ttl"><span class="point-list-item__desc-ttl-sub-ttl">小規模カスタマーセンターの短期立ち上げに最適</span><br>Service Cloudスターターパック</h4>
-                <p class="point-list-item__desc-txt">カスタマーセンターを小規模かつ短期間で立ち上げたいというニーズにお応えするためのService Cloudの設定パックです。</p>
-                <a href="/salesforce/solution/service-cloud.php" class="slide-under-line-2 point__more-btn">もっと詳しく</a>
-              </div>
-            </li>
-            <li class="flex point-list-item">
-              <a href="/salesforce/solution/heroku.php" class="point-list-item__link"><img src="/salesforce/top/img/solution-img02.jpg" alt="" class="point-list-item__img"></a>
-              <div class="point-list-item__desc">
-                <h4 class="point-list-item__desc-ttl solution-list-item__desc-ttl"><span class="point-list-item__desc-ttl-sub-ttl">Salesforce<sup>®</sup>と業務システムを連携</span><br>Salesforce<sup>®</sup>連携ソリューション</h4>
-                <p class="point-list-item__desc-txt">クラウド型PaaS「Heroku」を活用することで、Salesforce<sup>®</sup>上のデータを安全に外部システムと連携させます。</p>
-                <a href="/salesforce/solution/heroku.php" class="slide-under-line-2 point__more-btn">もっと詳しく</a>
-              </div>
-            </li>
-            <li class="flex point-list-item">
-              <a href="/salesforce/solution/event-monitoring.php" class="point-list-item__link"><img src="/salesforce/top/img/solution-img03.jpg" alt="" class="point-list-item__img"></a>
-              <div class="point-list-item__desc">
-                <h4 class="point-list-item__desc-ttl solution-list-item__desc-ttl"><span class="point-list-item__desc-ttl-sub-ttl">Event Monitoringの拡張サービスプラン</span><br>運用支援サービス</h4>
-                <p class="point-list-item__desc-txt">Event Monitoringの標準機能では30日間となるログ保持期間を御要望の期間に拡張する設定作業をいたします。</p>
-                <a href="/salesforce/solution/event-monitoring.php" class="slide-under-line-2 point__more-btn">もっと詳しく</a>
-              </div>
-            </li>
-          </ul>
-          <a href="/salesforce/solution/" class="index-btn slide-btn"><span>ソリューション一覧を見る</span></a>
-        </div>
-      </div>
-    </section>
-    <section class="case point">
-      <div class="inner">
-        <h2 class="point__ttl"><span class="point__ttl-before">株式会社ランドコンピュータが</span><br>導入支援に成功した事例を<br class="sp_display">一挙ご紹介</h2>
-        <div class="point-content case-content">
-          <h3 class="flex point-content__ttl ttl-column case-content__ttl"><span class="point-content__ttl-en ttl-column__en case-content__ttl-en"><span class="point-content__ttl-en-em ttl-column__en-em">C</span>ASE STUDY</span><span class="point-content__ttl-jp ttl-column__jp">導入事例</span></h3>
-          <ul class="flex point-list case-list">
-            <?php
-            // クエリを定義
-            $args = array(
-              'post_type' => 'case',
-              'posts_per_page' => 4,
-              'meta_key' => 'flg_pickup_sf',
-              'meta_value' => 1,
-              'post_status' => 'publish',
-              'orderby' => 'date',
-              'order' => 'DESC'
-            );
-
-            // クエリを実行
-            $query = new WP_Query($args);
-
-            // ループを開始
-            if ($query->have_posts()) : ?>
-              <?php while ($query->have_posts()) : $query->the_post();
-                // 記事URL
-                $url = "/salesforce/case/detail.php?id=" . get_the_ID();
-
-                // 記事タイトル
-                $thetitle = get_the_title();
-
-                // 画像URL取得 (user_img_1というACFのカスタムフィールド)
-                $user_img_1 = get_field('user_img_1') ? esc_url(get_field('user_img_1')) : '';
-
-                // Lead文 取得 (ACFのカスタムフィールド)
-                $lead = get_field('lead');
-
-                // 業種 取得 (ACFのカスタムフィールド)
-                $type = get_field('type');
-              ?>
-                <li class="point-list-item case-list-item">
-                  <a href="<?php echo $url; ?>" class="case-list-item__link point-list-item__link flex" <?php echo $target_blank; ?>>
-                    <div class="case-list-item__img-wrap">
-                      <?php if ($user_img_1) {
-                        echo '<img src="' . $user_img_1 . '" alt="" class="case-list-item__img point-list-item__img">';
-                      } else {
-                        echo '<img src="/case/common/img/no_image.png" alt="" class="case-list-item__img point-list-item__img">';
-                      }
-                      ?>
-                    </div>
-                  </a>
-                  <div class="point-list-item__desc case-list-item__desc">
-                    <h4 class="point-list-item__desc-ttl case-list-item__desc-ttl"><span class="point-list-item__desc-ttl-sub-ttl"><?php echo $type; ?></span><br><?php echo $thetitle; ?></h4>
-                    <p class="point-list-item__desc-txt"><?php echo nl2br($lead); ?></p>
-                  </div>
-                </li>
-              <?php endwhile; ?>
-            <?php
-              // ループをリセット
-              wp_reset_postdata();
-            else :
-              echo '投稿が見つかりませんでした。';
-            endif;
-            ?>
-
-          </ul>
-          <a href="/salesforce/case/" class="index-btn slide-btn"><span>導入事例一覧を見る</span></a>
-        </div>
-      </div>
-    </section>
-    <section class="expert">
-      <div class="inner grid expert__inner">
-        <h3 class="expert__ttl">Salesforce Navigatorプログラム<br class="sp_display">において<br class="pc_display">Experience Cloud分野で<br class="sp_display">Expert認定を獲得しました。<br>（2023年2月取得）</h3>
-        <img src="/salesforce/top/img/expert_img.png" alt="" loading="lazy" class="expert__img" width="160" height="203">
-        <p class="expert__txt">Salesforce NavigatorプログラムとはSalesforceによりSalesforceパートナーの製品・業界・サービスにおける専門能力を知識・経験・品質の3つの側面から評価し、3つの段階的なレベルで認定するものです。Expertは指定分野において最も経験豊かかつ高い技術を保有するパートナーであることを示しています。</p>
-      </div>
-    </section>
-    <section class="consultant">
-      <div class="inner">
-        <h3 class="flex ttl-column consultant__ttl"><img src="/salesforce/top/img/consultant-logo.png" alt="" class="consultant__ttl-img"><span>Salesforce<sup>®</sup>認定コンサルタントが<br class="sp_display">多数在籍</span></h3>
-        <h4 class="consultant__ttl-2">資格保有者数：<span class="consultant__ttl-2-num">208</span>名のべ人数</h4>
-        <ul class="consultant-list flex">
-          <li class="flex consultant-list-item consultant-list-item--full">
-            <figure class="consultant-list-item__figure">
-              <img src="/salesforce/top/img/consultants-img01.jpg" alt="" class="consultant-list-item__figure-img">
-              <figcaption class="consultant-list-item__figure-figcaption">管理者／CRMコンサルタント</figcaption>
-            </figure>
-            <ul class="consultant-data-list flex">
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>アドミニストレーター</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">75</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定 上級<br>アドミニストレーター</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">2</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Experience Cloud<br>コンサルタント</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">10</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Sales Cloud<br>コンサルタント</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">14</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Service Cloud<br>コンサルタント</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">18</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Field Service<br>コンサルタント</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">3</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Tableau CRM and <br class="sp_display">Einstein Discovery<br>コンサルタント</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">1</span>名</div>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li class="flex consultant-list-item">
-            <figure class="consultant-list-item__figure">
-              <img src="/salesforce/top/img/consultants-img02.jpg" alt="" class="consultant-list-item__figure-img">
-              <figcaption class="consultant-list-item__figure-figcaption">開発者</figcaption>
-            </figure>
-            <ul class="consultant-data-list flex">
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Platform<br>デベロッパー</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">22</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定 上級<br>Platform<br>デベロッパー </div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">2</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">JavaScript <br>Developer I</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">1</span>名</div>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li class="flex consultant-list-item">
-            <figure class="consultant-list-item__figure">
-              <img src="/salesforce/top/img/consultants-img03.jpg" alt="" class="consultant-list-item__figure-img">
-              <figcaption class="consultant-list-item__figure-figcaption">アーキテクト</figcaption>
-            </figure>
-            <ul class="consultant-data-list flex">
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>アプリケーション<br>アーキテクト</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">2</span>名</div>
-                </div>
-              </li>
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Heroku Architecture<br>デザイナー</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">4</span>名</div>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li class="flex consultant-list-item">
-            <figure class="consultant-list-item__figure">
-              <img src="/salesforce/top/img/consultants-img04.jpg" alt="" class="consultant-list-item__figure-img">
-              <figcaption class="consultant-list-item__figure-figcaption">アプリケーション構築者</figcaption>
-            </figure>
-            <ul class="consultant-data-list flex">
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt narrow">認定<br>Platform<br><span class="narrow">アプリケーション<br>ビルダー</span></div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">41</span>名</div>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li class="flex consultant-list-item">
-            <figure class="consultant-list-item__figure">
-              <img src="/salesforce/top/img/consultants-img05.jpg" alt="" class="consultant-list-item__figure-img">
-              <figcaption class="consultant-list-item__figure-figcaption">PARDOT</figcaption>
-            </figure>
-            <ul class="consultant-data-list flex">
-              <li class="consultant-data-list-item">
-                <div class="consultant-data-list-item__body flex">
-                  <div class="consultant-data-list-item__txt">認定<br>Pardot<br>スペシャリスト</div>
-                  <div class="consultant-data-list-item__num"><span class="consultant-data-list-item__num-figure">4</span>名</div>
-                </div>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- <section class="subsidy">
-      <div class="inner">
-        <div class="subsidy__body">
-          <h3>補助金・助成金を活用してみませんか？</h3>
-          <p class="subsidy__intro">経済産業省や厚生労働省など各機関で用意されている補助金・助成金を活用いただくことも可能です。ご希望の補助金・助成金がございましたら弊社までお問い合わせください。</p>
-          <div class="flex subsidy__example">
-            <div class="subsidy__txt">
-              <p class="subsidy__ttl">補助金・助成金の例</p>
-              <ul class="subsidy__example-list">
-                <li class="subsidy__example-list-item">IT導入補助金（経済産業省）</li>
-                <li class="subsidy__example-list-item">働き方改革推進支援助成金（厚生労働省）</li>
-                <li class="subsidy__example-list-item">テレワーク促進助成金（東京都）</li>
-              </ul>
-              <p class="subsidy__note">それぞれに適用条件と申請期間が決められていますので詳細は各ホームページをご確認ください。</p>
-            </div>
-            <img src="/salesforce/top/img/subsidy-img01.jpg" alt="" class="subsidy__img">
-        </div>
-        </div>
-      </div>
-    </section> -->
-    <section class="news">
-      <div class="inner news__inner">
-        <h3 class="flex ttl-column news__ttl"><span class="ttl-column__en"><span class="ttl-column__en-em">N</span>EWS</span><span class="ttl-column__jp">ニュース</span></h3>
-        <ul class="news-list">
-          <?php
-          // クエリを定義
-          $args = array(
-            'post_type' => 'post', // 通常の投稿タイプ 'post' を指定
-            'posts_per_page' => 2, // 取得する投稿数を指定
-            'meta_query' => array(
-              array(
-                'key' => 'flg_sf',
-                'value' => 1,
-                'compare' => '='
-              )
-            ),
-            'post_status' => 'publish',
-            'orderby' => 'date',
-            'order' => 'DESC'
-          );
-
-          // クエリを実行
-          $query = new WP_Query($args);
-
-          // ループを開始
-          if ($query->have_posts()) : ?>
-            <ul>
-              <?php while ($query->have_posts()) : $query->the_post();
-                // 記事タイトル
-                $thetitle = get_the_title();
-
-                // 日付
-                $date = get_the_date('Y年m月d日');
-
-                // リンクURL取得 (link_urlというACFのカスタムフィールド)
-                $link_url = get_field('file') ? get_field('file') : get_field('link_url');
-
-                // リンクTARGET取得 (targetというACFのカスタムフィールド)
-                $target = get_field('target');
-              ?>
-                <li class="news-list__item">
-                  <dl class="flex news-list__define-list">
-                    <dt class="news-list__date"><?php echo $date; ?></dt>
-                    <dd class="news-list__ttl">
-                      <?php if ($link_url != '') { ?>
-                        <a href="<?php echo esc_url($link_url); ?>" target="<?php echo esc_attr($target); ?>" class="news-list__ttl-link"><?php echo esc_html($thetitle); ?></a>
-                      <?php } else { ?>
-                        <?php echo esc_html($thetitle); ?>
-                      <?php } ?>
-                    </dd>
-                  </dl>
-                </li>
-              <?php endwhile; ?>
-            </ul>
-          <?php
-            // ループをリセット
-            wp_reset_postdata();
-          else :
-            echo '投稿が見つかりませんでした。';
-          endif;
-          ?>
-
-        </ul>
-        <a href="/salesforce/news/" class="index-btn slide-btn news__index-btn"><span>ニュースリリース一覧を見る</span></a>
+        <h2 class="contact__title">お問い合わせ</h2>
+        <p class="contact__text">システム開発･パートナー募集に関するご相談など、何でもお気軽にお問い合わせください。
+        </p>
+        <a class="contact__link" href="">お問い合わせはこちらから</a>
       </div>
     </section>
   </main>
-
-
   <?php include($_SERVER["DOCUMENT_ROOT"] . "/salesforce/common/inc/footer.php"); ?>
 </body>
 

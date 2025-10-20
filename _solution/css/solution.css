@@ -1,0 +1,493 @@
+/* -----------------------
+solution-index
+-----------------------*/
+.second-index.solution-index .mainvisual {
+  background-image: url(/salesforce/solution/img/index/mainvisual-bg.jpg);
+}
+
+/* -----------------------
+solution-detail
+-----------------------*/
+/* mainvisual */
+.solution-detail .mainvisual {
+  height: 59.9rem;
+  flex-wrap: nowrap;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.solution-detail .mainvisual__inner {
+  justify-content: center;
+}
+.solution-detail .mainvisual__ttl {
+  color: #fff;
+  font-size: 4.2rem;
+  line-height: 1.58333333;
+  letter-spacing: 0.05em;
+  padding-left: 0.6em;
+  position: relative;
+}
+.solution-detail .mainvisual__ttl::before {
+  content: "";
+  height: 0.87em;
+  width: 0.8rem;
+  background-color: #eb6400;
+  left: 0;
+  position: absolute;
+  top: 0.42em;
+}
+.solution-detail.service-cloud .mainvisual {
+  background-image: url(/salesforce/solution/img/service-cloud/mainvisual-bg.jpg);
+}
+.solution-detail.event-monitoring .mainvisual {
+  background-image: url(/salesforce/solution/img/event-monitoring/mainvisual-bg.jpg);
+}
+.solution-detail.lightning-scheduler .mainvisual {
+  background-image: url(/salesforce/solution/img/lightning-scheduler/mainvisual-bg.jpg);
+}
+.solution-detail.heroku .mainvisual {
+  background-image: url(/salesforce/solution/img/heroku/mainvisual-bg.jpg);
+}
+
+/* intro */
+.intro {
+  padding: 5.5rem 0 6rem;
+  background-color: #f6f8fa;
+  line-height: 2;
+}
+.intro__ttl {
+  font-size: 2.8rem;
+  color: #eb6400;
+  text-align: center;
+  line-height: 2.08142857;
+  margin-bottom: 0.5em;
+}
+.intro__txt {
+  font-size: 1.8rem;
+}
+.intro__note {
+  font-size: 1.5rem;
+  margin-top: 0.8em;
+}
+
+/* content */
+.solution-detail-content {
+  padding: 12rem 0 0;
+}
+.solution-detail-content__item + .solution-detail-content__item {
+  margin-top: 8.5rem;
+}
+.solution-detail-content__ttl {
+  font-size: 2.4rem;
+  color: #0082c9;
+  background-color: #f6f8fa;
+  padding: 1.5rem 0 1.5rem 3.5rem;
+  border-left: 8px solid;
+  margin-bottom: 5rem;
+}
+.solution-detail-content__txt {
+  font-size: 1.8rem;
+  line-height: 2;
+  margin-bottom: 4.5rem;
+}
+.solution-detail-content__txt--red {
+  color: #e60012;
+  font-weight: bold;
+  font-style: normal;
+}
+.solution-detail-img-wrap {
+  text-align: center;
+  overflow: hidden !important;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+/* links-list-item */
+.links-list-item__link::after {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  background-color: #0082c9;
+  background-image: url(/salesforce/common/img/arrow-right-white.svg);
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.1rem;
+}
+
+/* summary */
+.solution-detail-img-wrap + .summary-list {
+  margin-top: 7rem;
+}
+.summary-list-item__ttl {
+  font-size: 2rem;
+  color: #eb6400;
+  border-bottom: 1px solid #eef1f3;
+  padding-bottom: 0.9em;
+  margin-bottom: 2.7rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.summary-list-item__ttl--large {
+  font-size: 2.4rem;
+  color: #eb6400;
+  border-bottom: 1px solid #eef1f3;
+  padding-bottom: 0.5em;
+  margin-bottom: 2.7rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.summary-list-item__list-item {
+  line-height: 2.22222222;
+  padding-left: 1.3em;
+  position: relative;
+}
+.summary-list-item__list-item::before {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #eb6400;
+  border-radius: 50%;
+  left: 0;
+  top: 0.9em;
+}
+.summary-list-item + .summary-list-item {
+  margin-top: 7.5rem;
+}
+.summary-list-item__note-list {
+  margin-top: 1.7rem;
+}
+.summary-list-item__note-list-item {
+  font-size: 1.6rem;
+  line-height: 2;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+.summary-list-item__note {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 1.86666667;
+}
+.summary-list-item__list-item-link {
+  color: #0082c9;
+}
+.summary-list-item__list-item-link:hover {
+  color: #0082c9;
+  transition-duration: 0.3s;
+  opacity: 0.7;
+}
+
+/* word-info-list */
+.word-info-list {
+  background-color: #eef1f3;
+  padding: 2.7rem 4rem 3.7rem;
+  margin-top: 3rem;
+}
+.word-info-list-item + .word-info-list-item {
+  margin-top: 3.5rem;
+}
+.word-info-list-item__ttl {
+  font-size: 1.8rem;
+  line-height: 2.11111111;
+  margin-bottom: 0.3em;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.word-info-list-item__txt {
+  font-size: 1.5rem;
+  line-height: 1.86666667;
+}
+
+/* service-info-list */
+.service-info-list {
+  background-color: #eef1f3;
+  margin-top: 4rem;
+}
+.service-info-list-item__desc {
+  width: 61.5%;
+}
+.service-info-list-item__desc-txt {
+  line-height: 1.88888889;
+  margin-bottom: 2rem;
+}
+.service-info-list-item {
+  padding: 3.7rem 4rem 3.7rem;
+  align-items: flex-start;
+}
+.service-info-list-item__img {
+  width: 33.69565217%;
+}
+.service-info-list-item + .service-info-list-item {
+  border-top: 1px solid #fff;
+}
+.service-info-list-item__desc-link {
+  font-size: 1.6rem;
+}
+.service-info-list-item__desc-link + .service-info-list-item__desc-link {
+  margin-left: 1rem;
+}
+
+/* summary-table */
+.summary-table {
+  width: 100%;
+  margin-top: 6rem;
+}
+.summary-table__thead {
+  background-color: #4571a0;
+}
+.summary-table__th,
+.summary-table__td {
+  line-height: 1.66666667;
+  border: 1px solid #e6e6e6;
+  vertical-align: middle;
+}
+.summary-table__th {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.summary-table__td {
+  text-align: left;
+  vertical-align: middle;
+}
+.work-content-and-summary-table__th {
+  padding: 1.4em 0;
+  width: 50%;
+}
+.work-content-and-summary-table__td {
+  padding: 0.8em 1em 0.8em 4.3em;
+}
+.development-case-table__thead .development-case-table__tr {
+  height: inherit;
+}
+.development-case-table__tr {
+  height: 8.9rem;
+}
+.development-case-table__th {
+  padding: 0.8em 0;
+}
+.development-case-table__th:nth-of-type(1) {
+  width: 19%;
+}
+.development-case-table__th:nth-of-type(2) {
+  width: 12%;
+}
+.development-case-table__th:nth-of-type(3) {
+  width: 41%;
+}
+.development-case-table__th:nth-of-type(4) {
+  width: 28%;
+}
+.development-case-table__td {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.development-case-table__td:nth-of-type(1) {
+  padding: 0 1.4em;
+}
+.development-case-table__td:nth-of-type(2) {
+  text-align: center;
+}
+.development-case-table__td:nth-of-type(3) {
+  padding: 0 1em;
+}
+.development-case-table__td:nth-of-type(4) {
+  padding: 0 0.5em 0 1em;
+}
+
+@media screen and (max-width: 767px) {
+  /* mainvisual */
+  .solution-detail .mainvisual {
+    height: 121.2vw;
+  }
+  .solution-detail .mainvisual__ttl {
+    font-size: 7.73333333vw;
+    line-height: 1.55172414;
+  }
+  .solution-detail .mainvisual__ttl::before {
+    width: 1.06666667vw;
+  }
+  .solution-detail.service-cloud .mainvisual {
+    background-image: url(/salesforce/solution/img/service-cloud/mainvisual-bg-sp.jpg);
+  }
+  .solution-detail.event-monitoring .mainvisual {
+    background-position: left -222.5vw top;
+  }
+  .solution-detail-content__item + .solution-detail-content__item {
+    margin-top: 15.5vw;
+  }
+
+  /* intro */
+  .intro {
+    padding: 9.5vw 6vw;
+    line-height: 2.07692308;
+  }
+  .intro__ttl {
+    font-size: 4.26666667vw;
+    line-height: 1.9;
+    margin-bottom: 0.5em;
+  }
+  .intro__txt {
+    font-size: 3.46666667vw;
+  }
+  .intro__note {
+    font-size: 3.46666667vw;
+  }
+
+  /* content */
+  .solution-detail-content {
+    padding: 16.5vw 0 0;
+  }
+  .solution-detail-content__ttl {
+    font-size: 4.53333333vw;
+    padding: 3.5vw 0 2.5vw 4vw;
+    border-left-width: 1.6vw;
+    margin-bottom: 9vw;
+  }
+  .solution-detail-content__txt {
+    font-size: 3.46666667vw;
+    line-height: 2.07692308;
+    margin-bottom: 10vw;
+  }
+  .solution-detail-img-wrap {
+    padding: 0;
+  }
+
+  /* summary */
+  .summary-list-item__ttl {
+    font-size: 4vw;
+    padding-bottom: 0.5em;
+    margin-bottom: 3vw;
+  }
+  .summary-list-item__list-item {
+    font-size: 3.46666667vw;
+    line-height: 2.07692308;
+    padding-left: 1.1em;
+  }
+  .summary-list-item__list-item::before {
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 0.8em;
+  }
+  .summary-list-item + .summary-list-item {
+    margin-top: 7vw;
+  }
+  .summary-list-item__note-list {
+    margin-top: 3vw;
+  }
+  .summary-list-item__note-list-item {
+    font-size: 3.2vw;
+    line-height: 1.7;
+  }
+  .summary-list-item__note-list-item + .summary-list-item__note-list-item {
+    margin-top: 2vw;
+  }
+  .summary-list-item--large-ttl + .summary-list-item--large-ttl {
+    margin-top: 17vw;
+  }
+  .summary-list-item__ttl--large {
+    font-size: 4.53333333vw;
+    text-indent: -1.2em;
+    padding-left: 1.2em;
+  }
+  .summary-list-item__note {
+    margin-top: 5vw;
+    font-size: 3.2vw;
+  }
+
+  /* work-content-and-summary */
+  .summary-table__th,
+  .summary-table__td {
+    font-size: 3.466667vw;
+  }
+  .work-content-and-summary-table__td {
+    padding: 1em 1.5em;
+  }
+
+  /* word-info-list */
+  .word-info-list {
+    padding: 7vw;
+  }
+  .word-info-list-item__ttl {
+    font-size: 4.5vw;
+    margin-bottom: 1vw;
+  }
+  .word-info-list-item__txt {
+    font-size: 3.4vw;
+  }
+  .word-info-list-item + .word-info-list-item {
+    margin-top: 7vw;
+  }
+
+  /* development-case-table */
+  .development-case-table__tr {
+    height: auto;
+  }
+  .development-case-table__th,
+  .development-case-table__td {
+    font-size: 3vw;
+    padding: 1em !important;
+  }
+  .development-case-table__th:nth-of-type(1) {
+    width: 23%;
+  }
+  .development-case-table__th:nth-of-type(2) {
+    width: 17%;
+  }
+  .development-case-table__th:nth-of-type(3) {
+    width: inherit;
+  }
+  .development-case-table__th:nth-of-type(4) {
+    width: inherit;
+  }
+
+  /* service-info-list */
+  .service-info-list-item__img {
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+  .service-info-list-item {
+    display: block;
+    padding: 7vw 7vw 9vw;
+  }
+  .service-info-list-item__desc {
+    width: 100%;
+  }
+  .service-info-list-item__desc-txt {
+    font-size: 3.5vw;
+  }
+  .service-info-list-item__desc-links {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .service-info-list-item__desc-link {
+    width: 32vw;
+  }
+  .service-info-list-item__desc-link + .service-info-list-item__desc-link {
+    margin-left: 5vw;
+  }
+
+  /* step */
+  .step__img-wrap {
+    height: 70vw;
+    overflow-x: auto !important;
+    padding: 0;
+  }
+  .step__img {
+    max-width: inherit;
+    width: inherit;
+    max-height: 100%;
+  }
+
+  /* links-list-item */
+  .links-list-item__link::after {
+    width: 9.5vw;
+    height: 9.5vw;
+    background-size: 2.3vw;
+  }
+}
